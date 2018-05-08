@@ -1,0 +1,32 @@
+.FlashCards {
+    width: 100%;
+    position: relative;
+}
+
+.FlashCards-arrow {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    font-size: 15px;
+    color: #B5E5BD;
+}
+
+.FlashCards-card {
+    width: 90%;
+    /*min-height: 600px;*/
+    background: #85D192;
+    color: #E2F4E5;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 90px;
+    -webkit-box-shadow: 10px 10px 43px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 43px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 43px -8px rgba(0, 0, 0, 0.75);
+}
+
+.FlashCards-card-first {
+    color: #E2F4E5;
+}
+

@@ -1,0 +1,25 @@
+.Countdown {
+    width: 100%;
+    font-size: 30px;
+    padding: 80px 0;
+    background: #79BFA6;
+    color: #4EA486;
+    -webkit-box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 43px -8px rgba(0,0,0,0.75);
+}
+
+.Countdown-col {
+    display: inline-block;
+    width: 180px;
+}
+
+.Countdown-col-element strong, span {
+    display: block;
+    font-size: 14px;
+}
+
+.Countdown-col-element strong {
+    font-size: 100px;
+    vertical-align: sub;
+}
