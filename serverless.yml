@@ -16,7 +16,7 @@ custom:
   s3LocalPath: build
   prod:
     profile: alexleone
-    s3Bucket: leone-tech
+    s3Bucket: beard-bet-leone-tech
     domain: beard.leone.tech
     certificateARN: arn:aws:acm:us-east-1:971738683285:certificate/ae2c76b4-6830-4440-9023-8367b18bc25a
     defaultTTL: 86400

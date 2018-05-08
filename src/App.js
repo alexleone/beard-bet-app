@@ -13,7 +13,9 @@ class App extends Component {
       'He was a gambling man ',
       'What does gambling man do',
       'Gambling man make a bets',
-      'The best so large the world is large'
+      'To live with his beard for a whole year',
+      'The year of no shaving or bathing',
+      'Well he can bath but he can not trim'
     ]
   };
 
