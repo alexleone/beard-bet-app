@@ -10,7 +10,7 @@ service: beard-bet
 frameworkVersion: ">=1.2.0 <2.0.0"
 
 plugins:
-  - serverless-s3-deploy
+  - serverless-single-page-app-plugin
 
 custom:
   s3LocalPath: build

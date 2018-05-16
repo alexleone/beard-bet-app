@@ -13,9 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "sls s3deploy --stage prod"
-  },
-  "devDependencies": {
-    "serverless-s3-deploy": "^0.6.1"
+    "deploy": "yarn run build && sls syncToS3 --stage prod",
+    "info": "sls domainInfo --stage prod"
   }
 }
